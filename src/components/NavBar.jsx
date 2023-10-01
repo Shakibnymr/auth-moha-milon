@@ -7,7 +7,7 @@ const NavLinks = <>
 
   to="/"
   className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "bg-yellow-600 p-2 text-black" : ""
+    isPending ? "pending" : isActive ? "" : ""
   }
 >
   Home
@@ -16,7 +16,7 @@ const NavLinks = <>
 
   to="/login"
   className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "bg-yellow-600 p-2 text-black" : ""
+    isPending ? "pending" : isActive ? "" : ""
   }
 >
   Login
@@ -25,7 +25,7 @@ const NavLinks = <>
 
   to="/register"
   className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "bg-yellow-600 p-2 text-black" : ""
+    isPending ? "pending" : isActive ? "" : ""
   }
 >
   Register
