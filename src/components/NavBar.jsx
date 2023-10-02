@@ -46,6 +46,15 @@ const NavLinks = <>
 >
   Register
 </NavLink></li>
+<li><NavLink
+
+  to="/orders"
+  className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "" : ""
+  }
+>
+  Orders
+</NavLink></li>
 </>
 
     return (
